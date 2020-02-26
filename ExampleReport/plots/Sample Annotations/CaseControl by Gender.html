@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>CaseControl by Gender</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="3aa7e44d-945f-4393-88f3-ba4e82913f8b" data-root-id="1624"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1762">
+          {"ee7a5948-50b4-4ea3-b3b2-02e988cff33a":{"roots":{"references":[{"attributes":{},"id":"1631","type":"CategoricalScale"},{"attributes":{"bottom":{"expr":{"id":"1659","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1660","type":"Stack"}},"width":{"value":0.9},"x":{"field":"A_values"}},"id":"1665","type":"VBar"},{"attributes":{"fields":["Female","Male"]},"id":"1662","type":"Stack"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1673","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"1623","type":"ColumnDataSource"},"glyph":{"id":"1677","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"Male","nonselection_glyph":{"id":"1678","type":"VBar"},"selection_glyph":null,"view":{"id":"1680","type":"CDSView"}},"id":"1679","type":"GlyphRenderer"},{"attributes":{},"id":"1647","type":"SaveTool"},{"attributes":{"dimension":1,"ticker":{"id":"1640","type":"BasicTicker"}},"id":"1643","type":"Grid"},{"attributes":{"formatter":{"id":"1669","type":"CategoricalTickFormatter"},"major_label_orientation":1,"minor_tick_line_color":{"value":null},"ticker":{"id":"1636","type":"CategoricalTicker"}},"id":"1635","type":"CategoricalAxis"},{"attributes":{"label":{"value":"Female"},"renderers":[{"id":"1666","type":"GlyphRenderer"}]},"id":"1675","type":"LegendItem"},{"attributes":{"fields":["Female"]},"id":"1660","type":"Stack"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1636","type":"CategoricalTicker"}},"id":"1638","type":"Grid"},{"attributes":{},"id":"1645","type":"WheelZoomTool"},{"attributes":{},"id":"1649","type":"HelpTool"},{"attributes":{"source":{"id":"1623","type":"ColumnDataSource"}},"id":"1680","type":"CDSView"},{"attributes":{},"id":"1633","type":"LinearScale"},{"attributes":{"label":{"value":"Male"},"renderers":[{"id":"1679","type":"GlyphRenderer"}]},"id":"1689","type":"LegendItem"},{"attributes":{"fields":[]},"id":"1659","type":"Stack"},{"attributes":{},"id":"1687","type":"Selection"},{"attributes":{"callback":null,"start":0},"id":"1629","type":"DataRange1d"},{"attributes":{"bottom":{"expr":{"id":"1659","type":"Stack"}},"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1660","type":"Stack"}},"width":{"value":0.9},"x":{"field":"A_values"}},"id":"1664","type":"VBar"},{"attributes":{},"id":"1686","type":"UnionRenderers"},{"attributes":{"callback":null,"factors":["Case","Control"]},"id":"1627","type":"FactorRange"},{"attributes":{"source":{"id":"1623","type":"ColumnDataSource"}},"id":"1667","type":"CDSView"},{"attributes":{"below":[{"id":"1635","type":"CategoricalAxis"}],"center":[{"id":"1638","type":"Grid"},{"id":"1643","type":"Grid"},{"id":"1674","type":"Legend"}],"left":[{"id":"1639","type":"LinearAxis"}],"outline_line_color":{"value":null},"renderers":[{"id":"1666","type":"GlyphRenderer"},{"id":"1679","type":"GlyphRenderer"}],"title":{"id":"1625","type":"Title"},"toolbar":{"id":"1651","type":"Toolbar"},"x_range":{"id":"1627","type":"FactorRange"},"x_scale":{"id":"1631","type":"CategoricalScale"},"y_range":{"id":"1629","type":"DataRange1d"},"y_scale":{"id":"1633","type":"LinearScale"}},"id":"1624","subtype":"Figure","type":"Plot"},{"attributes":{"items":[{"id":"1675","type":"LegendItem"},{"id":"1689","type":"LegendItem"}],"orientation":"horizontal"},"id":"1674","type":"Legend"},{"attributes":{"callback":null,"tooltips":"$name @A_values: @$name"},"id":"1650","type":"HoverTool"},{"attributes":{"fields":["Female"]},"id":"1661","type":"Stack"},{"attributes":{},"id":"1640","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1644","type":"PanTool"},{"id":"1645","type":"WheelZoomTool"},{"id":"1646","type":"BoxZoomTool"},{"id":"1647","type":"SaveTool"},{"id":"1648","type":"ResetTool"},{"id":"1649","type":"HelpTool"},{"id":"1650","type":"HoverTool"}]},"id":"1651","type":"Toolbar"},{"attributes":{"overlay":{"id":"1673","type":"BoxAnnotation"}},"id":"1646","type":"BoxZoomTool"},{"attributes":{},"id":"1636","type":"CategoricalTicker"},{"attributes":{"bottom":{"expr":{"id":"1661","type":"Stack"}},"fill_color":{"value":"#ff7f0e"},"line_color":{"value":"#ff7f0e"},"top":{"expr":{"id":"1662","type":"Stack"}},"width":{"value":0.9},"x":{"field":"A_values"}},"id":"1677","type":"VBar"},{"attributes":{},"id":"1644","type":"PanTool"},{"attributes":{"bottom":{"expr":{"id":"1661","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1662","type":"Stack"}},"width":{"value":0.9},"x":{"field":"A_values"}},"id":"1678","type":"VBar"},{"attributes":{},"id":"1648","type":"ResetTool"},{"attributes":{"formatter":{"id":"1671","type":"BasicTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1640","type":"BasicTicker"}},"id":"1639","type":"LinearAxis"},{"attributes":{"callback":null,"data":{"A_values":["Case","Control"],"Female":[639,632],"Male":[613,620]},"selected":{"id":"1687","type":"Selection"},"selection_policy":{"id":"1686","type":"UnionRenderers"}},"id":"1623","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"1623","type":"ColumnDataSource"},"glyph":{"id":"1664","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"Female","nonselection_glyph":{"id":"1665","type":"VBar"},"selection_glyph":null,"view":{"id":"1667","type":"CDSView"}},"id":"1666","type":"GlyphRenderer"},{"attributes":{"text":"CaseControl by Gender"},"id":"1625","type":"Title"},{"attributes":{},"id":"1669","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1671","type":"BasicTickFormatter"}],"root_ids":["1624"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1762').textContent;
+                  var render_items = [{"docid":"ee7a5948-50b4-4ea3-b3b2-02e988cff33a","roots":{"1624":"3aa7e44d-945f-4393-88f3-ba4e82913f8b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
